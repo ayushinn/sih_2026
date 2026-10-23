@@ -1,0 +1,143 @@
+PAGE: Developer Documentation
+ROUTE: /documentation
+=============================================================
+
+--- PAGE HEADER ---
+Badge: Developer Documentation
+Title (H1): "DOCKEXPERT API & Developer Reference"
+Subtitle: "Complete technical documentation for integrating DOCKEXPERT into your institution ERP, state portal, or regulatory system."
+
+--- LEFT SIDEBAR NAVIGATION ---
+Documentation Sections:
+  - Getting Started
+  - Authentication
+  - Document Upload API
+  - OCR Extraction API
+  - Compliance Check API
+  - Batch Processing
+  - Webhook Events
+  - QR Verification
+  - APH Compliance Rules Reference
+  - Error Codes
+  - Rate Limits
+  - SDKs & Libraries
+  - Changelog
+
+--- TAB NAVIGATION (Main Content) ---
+Tab 1: Getting Started
+Tab 2: APH Compliance Rules
+Tab 3: API Reference
+Tab 4: QR Verification Spec
+
+--- TAB 1: Getting Started ---
+Badge: Quick Start
+Heading: "Integrate in Under 5 Minutes"
+Description: "DOCKEXPERT's RESTful API lets you submit document bundles, poll extraction status, and receive structured compliance results via webhook."
+
+Step 1: Get API Token
+  Heading: "Authentication"
+  Description: All API calls require a Bearer token issued to your institutional or officer account.
+  Code:
+    Authorization: Bearer YOUR_AICTE_API_TOKEN
+
+Step 2: Upload Documents
+  Heading: "Upload Document Bundle"
+  Description: Submit your documents as multipart/form-data with the application ID.
+
+Step 3: Receive Results
+  Heading: "Get Compliance Results"
+  Description: Poll the status endpoint or configure a webhook to receive real-time extraction and finding results.
+
+--- TAB 2: APH Compliance Rules ---
+Badge: Regulatory Reference
+Heading: "AICTE APH 2026-27 Compliance Checklist"
+Description: DOCKEXPERT validates against the following AICTE Approval Process Handbook clauses:
+
+Rule 1:
+  Clause: APH Chapter IV §4.7
+  Title: Student-Teacher Ratio (STR)
+  Rule: Cadre ratio must adhere to 1:20 for Engineering & Technology UG courses; Professor to Associate to Assistant Professor ratio must satisfy 1:2:6.
+  Severity: Regulatory Finding
+
+Rule 2:
+  Clause: APH Chapter I §1.5
+  Title: Land Title & Ownership Records
+  Rule: Land must be continuous in a single plot; minimum 5.0 acres in rural or 2.5 acres in urban/metro; clear 30-year unencumbered title.
+  Severity: Critical Deficiency
+
+Rule 3:
+  Clause: APH Chapter IV §4.12
+  Title: Joint Fixed Deposit Receipt (FDR)
+  Rule: Fixed deposit receipt must be jointly maintained with AICTE Regional Officer with active lien confirmation from a scheduled commercial bank.
+  Severity: Compliance Check
+
+--- TAB 3: API Reference ---
+Badge: API Reference
+Heading: "REST API & Batch Ingestion"
+Description: Integrate document validation directly into your college ERP or state education portal using our OpenAPI 3.0 specification.
+
+cURL Request Example:
+  # Upload document bundle
+  curl -X POST https://api.dockexpert.gov.in/v1/scrutiny \
+    -H "Authorization: Bearer $TOKEN" \
+    -H "Content-Type: multipart/form-data" \
+    -F "applicationId=APP-2026-PUNE-001" \
+    -F "institutionId=INST-PUNE-VIT" \
+    -F "documents=@bundle.zip" \
+    -F "sector=education" \
+    -F "applicationType=EoA"
+
+Python SDK Example:
+  import dockexpert
+
+  client = dockexpert.Client(api_key="your_api_key")
+
+  result = client.scrutiny.submit(
+      application_id="APP-2026-PUNE-001",
+      institution_id="INST-PUNE-VIT",
+      documents=["fire_noc.pdf", "land_title.pdf", "faculty_roster.xlsx"],
+      sector="education",
+      application_type="EoA"
+  )
+
+  print(result.findings)  # List of compliance findings
+  print(result.status)    # "pending" / "completed"
+
+--- TAB 4: QR Verification Spec ---
+Badge: Cryptographic Stamping
+Heading: "Secure 2D QR Verification Specification"
+Description: All verified approval letters and scrutiny clearance certificates are stamped with a tamper-proof 2D QR code encoded with an ECDSA digital signature.
+
+Spec Card 1:
+  Title: ECDSA secp256k1
+  Description: Hardware Security Module (HSM) level officer signature
+
+Spec Card 2:
+  Title: Offline Validation
+  Description: Verify authenticity in the field without internet access
+
+Spec Card 3:
+  Title: Zero Metadata Leak
+  Description: Cryptographic hash payload contains only certified claims
+
+QR Payload Structure:
+  {
+    "docId": "AICTE-EOA-2026-9912",
+    "institution": "VIT Engineering College, Pune",
+    "approvedBy": "OFFICER-RO-WEST",
+    "timestamp": "2026-10-22T14:12:00+05:30",
+    "decision": "APPROVED",
+    "hash": "sha256:8f2d4a...",
+    "signature": "ecdsa:secp256k1:..."
+  }
+
+--- API RATE LIMITS ---
+Standard Tier: 100 requests/minute | 10,000 docs/day
+Enterprise Tier: Unlimited (on-premise) | SLA-backed
+Batch Endpoint: Up to 10,000 documents per batch job
+
+--- SUPPORT & CHANGELOG ---
+Support Email: api-support@dockexpert.gov.in
+SDK Downloads: Python | Node.js | Java | .NET
+API Version: v1.4.2 (Oct 2026)
+Changelog Note: v1.4 adds WebSocket real-time status streaming and webhook retry with exponential backoff.

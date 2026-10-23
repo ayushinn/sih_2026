@@ -1,0 +1,56 @@
+PAGE: Login / Sign In
+ROUTE: /login
+=============================================================
+
+--- PAGE HEADER ---
+Icon: Shield (security icon)
+Title (H1): "Sign In to DOCKEXPERT"
+Subtitle: "Select your regulatory stakeholder role to continue"
+
+--- ROLE SWITCHER TABS ---
+Tab 1: "Technical College" (Institution role)
+Tab 2: "Scrutiny Officer" (Officer role)
+
+--- LOGIN FORM (Institution Role) ---
+Form Title: [Shown via role context]
+
+Field 1:
+  Label: "AICTE Permanent ID / User ID *"
+  Placeholder: INST-2026-PUNE
+  Input type: text
+
+Field 2:
+  Label: "Password / Passcode *"
+  Link: "Forgot password?"
+  Input type: password
+
+Demo Mode Notice (Institution):
+  "Demo Mode: Logging in will open your Institution Document Upload & Pre-Check Workspace."
+
+Submit Button: "Continue to Applicant Workspace →"
+
+--- LOGIN FORM (Officer Role) ---
+
+Field 1:
+  Label: "Officer Employee Code *"
+  Placeholder: OFFICER-RO-WEST
+  Input type: text
+
+Field 2:
+  Label: "Password / Passcode *"
+  Link: "Forgot password?"
+  Input type: password
+
+Demo Mode Notice (Officer):
+  "Demo Mode: Logging in will open the AICTE Scrutiny Officer Queue & Bounding Box Viewer."
+
+Submit Button: "Continue to Scrutiny Dashboard →"
+
+--- SECURITY TRUST INDICATORS ---
+- All sessions are encrypted with TLS 1.3
+- Multi-factor authentication available
+- RBAC enforced — officers see only assigned applications
+- Session logs are written to the immutable audit trail
+
+--- FOOTER NOTE ---
+Note: This is a demonstration environment. No real institutional data is stored. For production deployment inquiries, contact compliance@dockexpert.gov.in

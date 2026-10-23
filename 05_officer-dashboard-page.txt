@@ -1,0 +1,124 @@
+PAGE: Officer Scrutiny Dashboard
+ROUTE: /officer-dashboard
+=============================================================
+
+--- PAGE HEADER ---
+Badge: Officer Dashboard
+Title (H1): "AICTE Scrutiny Officer Dashboard"
+Subtitle: "Review AI-flagged findings, inspect evidence, and record formal regulatory decisions."
+
+Officer Info Bar:
+  - Officer: Sr. Scrutiny Officer — AICTE RO West
+  - Employee Code: OFFICER-RO-WEST
+  - Jurisdiction: Maharashtra, Goa, Gujarat
+
+--- APPLICATION QUEUE PANEL ---
+Heading: "Application Queue"
+Sub-label: "Pending Review"
+
+Queue Item 1:
+  Application ID: APP-2026-PUNE-001
+  Institution: VIT Engineering College, Pune
+  Type: Extension of Approval (EoA)
+  Submitted: 18 Oct 2026
+  Findings: 4 findings
+  AI Risk Score: High Risk
+  Status badge: Pending Review
+
+Queue Item 2:
+  Application ID: APP-2026-MUMB-007
+  Institution: Rizvi College of Engineering
+  Type: New Institution Approval
+  Submitted: 19 Oct 2026
+  Findings: 2 findings
+  AI Risk Score: Medium Risk
+  Status badge: In Review
+
+Queue Item 3:
+  Application ID: APP-2026-NASK-003
+  Institution: K.K. Wagh Institute
+  Type: Extension of Approval (EoA)
+  Submitted: 20 Oct 2026
+  Findings: 1 finding
+  AI Risk Score: Low Risk
+  Status badge: Pending Review
+
+--- FINDINGS PANEL (for selected application) ---
+Heading: "AI-Flagged Findings"
+App ID label: e.g., "APP-2026-PUNE-001"
+
+Finding 1:
+  Title: Faculty Cadre Ratio Non-Compliance
+  Document: Faculty Roster PDF
+  Clause Reference: APH Chapter IV §4.7
+  Detail: Required ratio 1:2:6 (Prof:Assoc:Asst). Extracted: 3:7:28 (1:2.3:9.3). Non-compliant.
+  Extracted Value: "Ratio: 1:2.3:9.3 — FAIL"
+  Severity: Critical
+
+Finding 2:
+  Title: Land Area Below Minimum Threshold
+  Document: Land Title / Ownership Deed
+  Clause Reference: APH Chapter I §1.5
+  Detail: Urban plot minimum: 2.5 acres. Extracted plot area: 2.8 acres. Borderline — title chain only 22 years (minimum 30 years required).
+  Extracted Value: "2.8 acres | Title: 22 yrs"
+  Severity: Critical
+
+Finding 3:
+  Title: FDR Certificate Expired
+  Document: Joint FDR Certificate
+  Clause Reference: APH Chapter IV §4.12
+  Detail: FDR maturity date was 31-Mar-2024. Application submitted Oct 2026. Certificate is 18 months expired.
+  Extracted Value: "Maturity: 31-Mar-2024 — EXPIRED"
+  Severity: High
+
+Finding 4:
+  Title: Student-Teacher Ratio (STR) Violation
+  Document: Faculty Roster + Student Enrollment
+  Clause Reference: APH Chapter IV §4.7
+  Detail: Total enrollment: 912 students. Faculty: 38. STR = 1:24. Mandated maximum: 1:20.
+  Extracted Value: "STR: 1:24 — EXCEEDS LIMIT"
+  Severity: High
+
+--- EVIDENCE VIEWER PANEL ---
+Heading: "Evidence Viewer"
+Controls: Zoom In | Zoom Out | Maximize
+
+Mock Document Preview Content:
+  Certificate No.: FS/2024/889
+  Issued By: Chief Fire Officer, Pune Municipal Corp.
+  Building: Academic Block-A, Plot 234/A
+  Fire Extinguishers: 24 (adequate)
+  Emergency Exits: 6 (compliant)
+
+Bounding Box Overlay:
+  Red highlighted box on the non-compliant section
+  Label: Finding title shown above box
+
+AI Extracted Value Display:
+  "AI Extracted Value:" [extracted value shown]
+
+Regulatory Reference Panel:
+  Heading: "Regulatory Reference"
+  Shows clause code + full clause detail description
+
+Placeholder (when no finding selected):
+  "Select a finding on the left to inspect evidence"
+
+--- RECORD DECISION BUTTON ---
+Button: "Record Scrutiny Decision" (primary action, full-width)
+
+--- DECISION MODAL ---
+Title: "Record Scrutiny Decision"
+
+Decision Options (3 buttons):
+  1. Approve (✓ thumbs up)
+  2. Deficiency (⚠ warning)
+  3. Reject (✗ thumbs down)
+
+Mandatory Justification Note:
+  Label: "Mandatory Justification Note *"
+  Placeholder: "Enter detailed scrutiny justification referencing APH clauses..."
+
+Buttons: Cancel | Submit Decision
+
+Note: Submitting a decision logs it permanently to the immutable audit trail.

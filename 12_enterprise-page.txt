@@ -1,0 +1,96 @@
+PAGE: Enterprise On-Premise Solutions
+ROUTE: /enterprise
+=============================================================
+
+--- HERO SECTION ---
+Badge: Enterprise Grade · On-Premise & Air-Gapped
+Title (H1): "Enterprise On-Premise Document Scrutiny"
+Subtitle: "Full DOCKEXPERT stack deployed within your State Data Center or NIC infrastructure. Zero data egress. Ministry-grade security."
+CTA Buttons: "Request Enterprise Demo →" | "Download Spec Sheet"
+
+--- FEATURE TABS SECTION ---
+Heading: "Enterprise Capabilities"
+Tab Navigation: On-Premise Deployment | QR Stamping Engine | High-Throughput Batch API
+
+--- TAB 1: On-Premise Deployment ---
+Heading: "100% Air-Gapped Deployment"
+Description:
+  Deploy the full DOCKEXPERT scrutiny stack within your secure government intranet or State Data Center. No document data leaves your network perimeter.
+
+Feature Bullets:
+  - Kubernetes 1.28+ on-premise or NIC / SDC cloud
+  - GPU-accelerated OCR engine (no external API calls)
+  - PostgreSQL 16 with AES-256 encryption at rest
+  - Append-Only WORM audit storage
+  - Offline QR verification without internet
+  - AES-256 GCM + SHA-256 Ledger
+
+Deployment Spec Card:
+  Heading: DEPLOYMENT SPECIFICATION — READY
+  Command: $ helm install dockexpert/compliance-core
+  Details:
+    - Cluster: Kubernetes 1.28+ (On-Prem / SDC)
+    - Database: PostgreSQL 16 (Encrypted at rest)
+    - OCR Engine: GPU-accelerated Local OCR v4.1
+    - Audit Trail: Append-Only WORM Storage
+  Security: AES-256 GCM + SHA-256 Ledger
+
+--- TAB 2: QR Stamping Engine ---
+Heading: "Tamper-Proof QR Stamping Engine"
+Description:
+  Every verified AICTE approval letter, EoA certificate, or university transcript is stamped with a secure 2D cryptographic QR code that instantly validates authenticity offline or online.
+
+Feature Bullets:
+  - Instant scan with any mobile camera or police/officer scanner
+  - Contains cryptographic digital signature of issuing officer
+  - Prevents certificate spoofing and fraudulent paper modifications
+  - Embedded verification metadata with zero server lookup needed
+
+QR Preview Card:
+  Badge: CRYPTOGRAPHICALLY SIGNED
+  Document Reference: AICTE EoA Approval #2026-9912
+  Hash: 0x8f2d...41a9
+
+--- TAB 3: High-Throughput Batch API ---
+Heading: "High-Throughput Batch API"
+Description:
+  Process up to 10,000+ complex institutional submissions simultaneously during approval deadlines. Webhook-based asynchronous event processing for ERP systems.
+
+Feature Bullets:
+  - RESTful & gRPC endpoints with OpenAPI 3.0 specification
+  - Real-time extraction status via WebSockets
+  - Automated PDF bounding box coordinate output
+  - Direct integration with SAP, PeopleSoft, and State Portals
+
+Code Example:
+  // POST /api/v1/scrutiny/batch-verify
+  curl -X POST \
+    https://api.dockexpert.gov.in/v1/verify \
+    -H "Authorization: Bearer $AICTE_TOKEN" \
+    -F "applicationId=APP-2026-PUNE" \
+    -F "documents=@bundle.zip"
+  // Response: 200 OK → 14 docs queued, ETA: 3.8s
+
+--- COMPARISON GRID SECTION ---
+Badge: Specification Matrix
+Heading: "Standard Cloud vs. Enterprise On-Premise"
+
+Comparison Table:
+  Feature              | Cloud SaaS                    | Enterprise On-Prem
+  ---------------------|-------------------------------|---------------------------
+  Data Location        | Indian Public Cloud           | 100% In-House / SDC
+  Regulatory Clearance | APH 2026-27 Compliant         | Defence & Ministry Approved
+  Custom AI Rule Engine| Standard Checklists           | Fully Configurable Rulesets
+  QR Stamping          | Included                      | HSM Hardware Encrypted
+  SLA Guarantee        | 99.9% Uptime                  | 99.99% with 24/7 Dedicated Team
+
+--- ENTERPRISE CTA ---
+Heading: "Talk to Our Compliance Engineering Team"
+Description: "Enterprise deployments are configured and deployed by our team within 4 weeks. Includes training, documentation, and 12-month dedicated support SLA."
+Form Fields:
+  - Ministry / Department Name *
+  - Contact Person Name *
+  - Official Email *
+  - Estimated Monthly Volume (documents)
+  - Deployment Environment (SDC / NIC / On-Premise / Other)
+Submit Button: "Request Enterprise Consultation →"

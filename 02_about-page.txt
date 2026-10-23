@@ -1,0 +1,70 @@
+PAGE: About DOCKEXPERT
+ROUTE: /about
+=============================================================
+
+--- HERO SECTION ---
+Badge: About DOCKEXPERT
+
+Headline (H1):
+  "Transforming Institutional Approvals with Regulatory AI"
+
+Body Text:
+  Built for Smart India Hackathon (SIH 2026), DOCKEXPERT bridges technical education institutions and regulatory bodies through automated OCR, multi-document cross-reconciliation, and human-in-the-loop scrutiny.
+
+--- MISSION & VISION SECTION ---
+
+Card 1 — Our Mission:
+  "Eliminate weeks of manual document scrutiny, prevent fraudulent certificate submissions, and ensure every engineering, polytechnic, and management college adheres strictly to AICTE Approval Process Handbook (APH) norms."
+
+Card 2 — Our Core Philosophy:
+  "AI assists, but humans decide. We empower regulatory officers with evidence-linked bounding boxes, clause citations, and tamper-proof audit trails rather than automated black-box approvals."
+
+--- AICTE ALIGNMENT & COMPLIANCE STANDARDS SECTION ---
+Badge: Regulatory Standards
+Heading: "Designed for AICTE APH 2026-27 Norms"
+
+Compliance Card 1:
+  Title: Chapter IV Standards
+  Description: Automated verification of Faculty cadre ratios (1:20), Cadre distributions, and teacher qualifications.
+
+Compliance Card 2:
+  Title: Infrastructure & Land
+  Description: Carpet area norms, architectural floor plans, municipal NOCs, and building completion cross-checks.
+
+Compliance Card 3:
+  Title: Financial & Security
+  Description: Fixed Deposit Receipt (FDR) validation, bank guarantees, and anti-ragging mandatory affidavits.
+
+--- TECHNOLOGY STACK SECTION ---
+Badge: Under The Hood
+Heading: "Technology That Powers DOCKEXPERT"
+
+Tech Item 1:
+  Title: Multi-Layer OCR Pipeline
+  Description: Combines Tesseract, PaddleOCR, and a fine-tuned transformer model for 97%+ accuracy on government-issued certificates, architectural drawings, and handwritten affidavits.
+
+Tech Item 2:
+  Title: Cross-Document Reconciliation Engine
+  Description: Parses and correlates structured entities (names, dates, acreage values, FDR amounts) across 25+ document types using NLP-based entity matching.
+
+Tech Item 3:
+  Title: Cryptographic Audit Ledger
+  Description: SHA-256 hash anchoring with append-only WORM (Write Once Read Many) storage. Every event is sealed with a Merkle proof for tamper-evidence.
+
+--- TEAM / SIH CONTEXT SECTION ---
+Badge: SIH 2026 — Problem #1702
+Heading: "Built for Smart India Hackathon"
+
+Description:
+  DOCKEXPERT is the winning prototype submission for SIH 2026 Problem Statement #1702 — "AI-Based Document Scrutiny System for AICTE Institutional Approvals." Our team comprises final-year engineering students from Pune, Maharashtra, specializing in AI, full-stack development, and regulatory compliance.
+
+Problem Statement Summary:
+  AICTE receives thousands of institutional approval applications annually. Manual scrutiny is time-consuming, error-prone, and susceptible to fraudulent document submissions. The challenge: build an AI system that automates multi-document verification while keeping regulatory officers in control of final decisions.
+
+Our Solution Highlights:
+  - Automated OCR extraction from 25+ AICTE-mandated document types
+  - Real-time cross-reconciliation with APH clause citations
+  - Human-in-the-loop decision recording with justification notes
+  - Immutable blockchain-anchored audit trail
+  - Cryptographic QR stamping for approved documents
+  - Enterprise-grade on-premise deployment for regulatory offices

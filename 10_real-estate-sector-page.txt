@@ -1,0 +1,80 @@
+PAGE: Document Scrutiny in Real Estate
+ROUTE: /document-scrutiny-in-real-estate
+=============================================================
+
+--- HERO SECTION ---
+Badge: Real Estate Sector · RERA Compliance
+Title (H1): "Document Scrutiny in Real Estate"
+Subtitle: "Automated verification of land titles, RERA filings, sale deeds, and property compliance documents."
+CTA Buttons: "Start Verification →" | "View Demo"
+
+--- STATS STRIP ---
+Stat 1: 30+ Property document types
+Stat 2: 95% Accuracy on title chain extraction
+Stat 3: 60% Faster RERA compliance review
+Stat 4: Active in 15 states
+
+--- USE CASES SECTION ---
+Badge: Use Cases
+Heading: "Key Applications"
+
+Use Case 1:
+  Title: RERA Project Registration Verification
+  Description: Validates all mandatory RERA filing documents — project layouts, promoter financials, legal title, and builder agreements — before state RERA submission.
+
+Use Case 2:
+  Title: Land Title Chain Verification
+  Description: Traces 30+ year ownership chains from sale deeds and mutation records. Flags encumbrances, missing links, and disputed entries in property records.
+
+Use Case 3:
+  Title: Sale Deed & Agreement to Sell Scrutiny
+  Description: Cross-verifies buyer/seller identities, property descriptions, stamp duty values, and registration numbers across related documents.
+
+Use Case 4:
+  Title: Encumbrance Certificate Validation
+  Description: Extracts and verifies encumbrance entries, loan lien status, and court orders against current ownership claims.
+
+--- DOCUMENTS WE VERIFY ---
+Document Types:
+  1. Sale Deed / Conveyance Deed
+  2. Agreement to Sell
+  3. Land Title / Patta Document
+  4. Encumbrance Certificate (EC)
+  5. Khata / Mutation Records
+  6. RERA Registration Certificate
+  7. Builder-Buyer Agreement
+  8. Layout Plan / Sanction Plan
+  9. Completion Certificate (CC)
+  10. Occupancy Certificate (OC)
+  11. Environmental Clearance
+  12. NOC from Local Authority
+  13. Property Tax Receipts
+  14. Electricity Connection Certificate
+  15. Water Connection Certificate
+  16. Bank NOC / Loan Release Letter
+  17. Society Formation Certificate
+  18. Lease Deed / Rental Agreement
+  19. Power of Attorney (Property)
+  20. Mutation Transfer Certificate
+
+--- CHALLENGES vs. DOCKEXPERT SOLUTIONS ---
+Heading: "Challenges vs. DOCKEXPERT Solutions"
+
+Challenges:
+  - Property title chains span decades across multiple document formats
+  - Detecting fake encumbrance certificates requires cross-database lookups
+  - RERA filing reviewers process hundreds of projects with limited staff
+  - Inconsistencies between sale deed and layout plans cause project delays
+  - Manual verification of stamp duty values and registration fees is error-prone
+
+DOCKEXPERT Solutions:
+  - AI traces complete ownership chains and flags missing or disputed links
+  - Hash-based forgery detection on encumbrance certificates and NOCs
+  - Batch processing for RERA authority reviewers during registration season
+  - Cross-verification between sale deed property descriptions and layout plans
+  - Automated stamp duty calculation verification against circle rates
+
+--- CTA SECTION ---
+Heading: "Ready to Automate Real Estate Verification?"
+Body: "Get started with DOCKEXPERT compliance engine today. See verification results in seconds, not weeks."
+Button: "Book Free Demo "

@@ -1,0 +1,99 @@
+PAGE: Regulatory Audit Trail
+ROUTE: /audit-trail
+=============================================================
+
+--- PAGE HEADER ---
+Badge: Audit Trail
+Security Tag: "Immutable · Append-Only"
+Title (H1): "Regulatory Audit Trail"
+Subtitle: "Complete, tamper-proof record of every action — from AI extraction to officer decisions."
+
+Action Button: "Export Audit Log" (download icon)
+
+--- FILTER BAR ---
+Search Input:
+  Placeholder: "Search audit entries by action, application ID, or details..."
+
+Filter Buttons (by severity):
+  - All
+  - Critical
+  - Warning
+  - Success
+  - Info
+
+--- AUDIT TABLE ---
+Column Headers:
+  Severity | Timestamp | Actor | Action | App ID | Detail
+
+--- AUDIT LOG ENTRIES (Sample Data) ---
+
+Entry 1:
+  Severity: Critical
+  Timestamp: 22 Oct 2026, 09:14 IST
+  Actor: AI-ENGINE-v4.1
+  Action: OCR Extraction
+  App ID: APP-2026-PUNE-001
+  Detail: Multi-document OCR completed. 8 documents processed. 4 compliance findings flagged. Faculty ratio non-compliance detected in Faculty Roster.
+
+Entry 2:
+  Severity: Warning
+  Timestamp: 22 Oct 2026, 09:22 IST
+  Actor: INST-PUNE-001
+  Action: Document Re-Upload
+  App ID: APP-2026-PUNE-001
+  Detail: Institution re-uploaded Fire NOC (fire_noc_v2.pdf). Previous file: fire_noc_pune_2024.pdf. Hash mismatch confirmed — new file submitted for AI re-extraction.
+
+Entry 3:
+  Severity: Success
+  Timestamp: 22 Oct 2026, 10:05 IST
+  Actor: AI-ENGINE-v4.1
+  Action: Re-Verification
+  App ID: APP-2026-PUNE-001
+  Detail: Fire NOC re-verified. All extraction fields pass APH §2.3. Status updated: Flagged → Verified. Confidence: 96%.
+
+Entry 4:
+  Severity: Info
+  Timestamp: 22 Oct 2026, 11:30 IST
+  Actor: OFFICER-RO-WEST
+  Action: Scrutiny Session Start
+  App ID: APP-2026-PUNE-001
+  Detail: Officer Sr. Scrutiny Officer initiated review session. 4 AI findings assigned for manual review. Bounding box evidence loaded.
+
+Entry 5:
+  Severity: Critical
+  Timestamp: 22 Oct 2026, 14:12 IST
+  Actor: OFFICER-RO-WEST
+  Action: Decision Recorded
+  App ID: APP-2026-PUNE-001
+  Detail: Decision: DEFICIENCY raised. Justification: "Faculty cadre ratio 1:2.3:9.3 does not meet APH Chapter IV §4.7 minimum of 1:2:6. Institution must rectify before next EoA cycle."
+
+Entry 6:
+  Severity: Success
+  Timestamp: 22 Oct 2026, 15:45 IST
+  Actor: OFFICER-RO-WEST
+  Action: QR Stamp Issued
+  App ID: APP-2026-MUMB-007
+  Detail: Approval letter for Rizvi College stamped with cryptographic QR code. Officer ECDSA signature embedded. Hash: 0x8f2d...41a9.
+
+Entry 7:
+  Severity: Info
+  Timestamp: 22 Oct 2026, 16:46 IST
+  Actor: SYSTEM
+  Action: Blockchain Anchor
+  App ID: ALL
+  Detail: Daily Merkle root anchored to audit ledger. 47 events sealed. SHA-256 chain hash: 0x7a3f...c891. No events modified since last anchor.
+
+--- AUDIT SUMMARY FOOTER ---
+Summary Stats:
+  - Total Entries: [count] entries
+  - Last Updated: 22 Oct 2025, 16:46 IST
+  - Blockchain-Anchored Hash: 0x7a3f...c891
+
+Empty State Message (if no results):
+  "No audit entries match your filters."
+
+--- TECHNICAL NOTES ---
+- Audit records are append-only — no deletion or modification permitted
+- Every entry is SHA-256 hashed and Merkle-anchored nightly
+- Entries are exportable as signed PDF or JSON for regulatory review
+- Full audit history is available for parliamentary and judicial proceedings

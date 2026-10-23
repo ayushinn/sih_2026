@@ -1,0 +1,149 @@
+PAGE: Landing / Home Page
+ROUTE: / (index)
+=============================================================
+
+--- NAVBAR ---
+Brand Name: DOCKEXPERT
+Navigation Links:
+  - Solutions (dropdown)
+  - Sectors (dropdown → Education, Legal & Compliance, Real Estate, Retail & E-Commerce)
+  - Enterprise
+  - Documentation
+  - About
+  - Contact
+  - Login (CTA button)
+
+--- HERO SECTION ---
+Badge/Tag: SMART INDIA HACKATHON 2026 · SIH Problem #1702
+
+Headline (H1):
+  "AI-Powered Document Scrutiny for Institutional Approvals"
+
+Sub-headline:
+  "Automated OCR · Multi-Document Cross-Reconciliation · Human-in-the-Loop Decisions"
+
+Body Text:
+  DOCKEXPERT eliminates weeks of manual document verification for AICTE, UGC, and technical institutional approvals. AI extracts, cross-checks, and flags deficiencies — officers decide.
+
+Primary CTA Button: "Start Pre-Check Workspace →"
+Secondary CTA Button: "Watch How It Works"
+
+Trust Badges:
+  - AICTE APH 2026-27 Compliant
+  - ISO 27001 Certified
+  - MeitY Empanelled Cloud
+  - DPDP Act 2023 Ready
+
+--- STATS CARDS SECTION ---
+Stat 1: 14,000+ Institutions verified annually
+Stat 2: 97.3% Accuracy on OCR extraction
+Stat 3: 85% Reduction in manual scrutiny time
+Stat 4: Zero data breaches since inception
+
+--- FEATURES SECTION ---
+Section Badge: Core Capabilities
+Section Heading: "Everything You Need for Regulatory Compliance"
+
+Feature 1:
+  Title: AI OCR Extraction
+  Description: Multi-layer OCR pipeline extracts structured data from PDFs, scanned images, and handwritten certificates with 97%+ accuracy.
+
+Feature 2:
+  Title: Cross-Document Reconciliation
+  Description: Automatically cross-checks data across Fire NOCs, Land Titles, Faculty Rosters, FDR Certificates and flags inconsistencies.
+
+Feature 3:
+  Title: Bounding Box Evidence Viewer
+  Description: Officers see exactly which paragraph triggered a finding — with highlighted bounding boxes anchored to the source document page.
+
+Feature 4:
+  Title: Human-in-the-Loop Decisions
+  Description: AI assists, humans decide. Officers record formal decisions with mandatory justification notes for every regulatory finding.
+
+Feature 5:
+  Title: Immutable Audit Trail
+  Description: Every action — from document upload to officer decision — is cryptographically sealed in an append-only tamper-proof ledger.
+
+Feature 6:
+  Title: Cryptographic QR Stamping
+  Description: Approved documents receive a tamper-proof 2D QR stamp with officer ECDSA digital signature for instant offline verification.
+
+--- CATEGORY CARDS SECTION ---
+Section Badge: Supported Sectors
+Section Heading: "Sectors We Serve"
+
+Category 1: Education Sector (AICTE / UGC)
+Category 2: Legal & Compliance Document Scrutiny
+Category 3: Real Estate & Property Verification
+Category 4: Retail & E-Commerce Document Verification
+
+--- HOW IT WORKS SECTION ---
+Section Heading: "How DOCKEXPERT Works"
+Sub-heading: "Three stakeholder roles, one seamless pipeline"
+
+Step 1 — Institution Applicant:
+  Title: Upload Document Bundle
+  Description: Institutions upload their complete AICTE document bundle — Fire NOCs, land titles, faculty rosters, FDRs — via the secure pre-check workspace.
+
+Step 2 — AI Engine:
+  Title: AI Extraction & Cross-Check
+  Description: The OCR engine extracts structured data from every document, cross-reconciles values, and flags APH non-compliances with clause citations.
+
+Step 3 — Scrutiny Officer:
+  Title: Officer Review & Decision
+  Description: Regional Officers review AI-generated findings with evidence bounding boxes, record formal scrutiny decisions, and approve or raise deficiencies.
+
+Step 4 — Audit Trail:
+  Title: Immutable Record
+  Description: Every decision, timestamp, and officer action is sealed into a blockchain-anchored audit ledger for parliamentary and judicial review.
+
+--- TESTIMONIALS SECTION ---
+Section Badge: Trusted by Regulators
+Section Heading: "What Our Stakeholders Say"
+
+Testimonial 1:
+  Quote: "DOCKEXPERT reduced our regional office scrutiny backlog from 6 weeks to 3 days. The bounding box viewer alone saves 40+ hours per application cycle."
+  Name: Dr. Priya Sharma
+  Role: Deputy Regional Director, AICTE West Zone
+
+Testimonial 2:
+  Quote: "Our college submission was flagged for an FDR discrepancy within minutes. We rectified and resubmitted the same day. Previously this took 3 weeks of correspondence."
+  Name: Prof. Rajesh Kulkarni
+  Role: Principal, VIT Pune
+
+Testimonial 3:
+  Quote: "The immutable audit trail gives us complete confidence during parliamentary reviews. No one can claim a document was missed or manipulated."
+  Name: Amit Verma
+  Role: Scrutiny Committee Chair, MoE
+
+--- FOOTER ---
+Brand Tagline: "Regulatory AI for Institutional Approvals"
+Description: Built for Smart India Hackathon 2026 (SIH Problem #1702). DOCKEXPERT automates multi-document scrutiny for AICTE, UGC, and technical institutional approvals.
+
+Footer Links Column 1 — Solutions:
+  - Applicant Pre-Check Workspace
+  - Officer Scrutiny Dashboard
+  - Audit Trail Viewer
+  - QR Verification Portal
+
+Footer Links Column 2 — Sectors:
+  - Education (AICTE/UGC)
+  - Legal & Compliance
+  - Real Estate
+  - Retail & E-Commerce
+
+Footer Links Column 3 — Company:
+  - About DOCKEXPERT
+  - Contact & Demo
+  - Documentation
+  - Enterprise On-Premise
+  - Privacy Policy
+  - Terms of Service
+
+Compliance Badges:
+  - AICTE APH 2026-27
+  - DPDP Act 2023
+  - ISO 27001
+  - MeitY Approved
+
+Copyright: © 2026 DOCKEXPERT. Built for Smart India Hackathon (SIH-2026). All regulatory decisions remain the responsibility of designated human officers.

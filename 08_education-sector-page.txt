@@ -1,0 +1,95 @@
+PAGE: Document Scrutiny in Education Sector
+ROUTE: /document-scrutiny-in-education-sector
+=============================================================
+
+--- HERO SECTION ---
+Badge: Education Sector · AICTE / UGC
+Title (H1): "Document Scrutiny in the Education Sector"
+Subtitle: "Automated AICTE APH 2026-27 compliance verification for engineering colleges, polytechnics, and management institutions."
+CTA Buttons: "Start Pre-Check →" | "View Demo"
+
+Visual Stats (hero sidebar):
+  - OCR Accuracy: 97.3%
+  - Docs Verified: 14,000+
+  - Processing Time: <60 sec
+
+--- STATS STRIP ---
+Stat 1: 14,000+ Institutions verified
+Stat 2: 25+ Document types supported
+Stat 3: 85% Reduction in scrutiny time
+Stat 4: 97.3% OCR accuracy
+
+--- USE CASES SECTION ---
+Badge: Use Cases
+Heading: "Key Applications"
+
+Use Case 1:
+  Title: Extension of Approval (EoA) — Annual Renewal
+  Description: Automatically pre-checks the complete annual EoA bundle — Faculty Rosters, FDR Certificates, Fire NOCs, and Building Certificates — before formal AICTE submission.
+
+Use Case 2:
+  Title: New Institution Approval
+  Description: Validates all mandatory documents for new engineering and polytechnic college setup — land title, architectural plans, municipal NOCs, and promoter affidavits.
+
+Use Case 3:
+  Title: Additional Course / Intake Approval
+  Description: Verifies faculty strength, lab infrastructure, and financial FDR top-up requirements when institutions apply to add new courses or increase intake.
+
+Use Case 4:
+  Title: Fraudulent Certificate Detection
+  Description: Cross-checks degree certificates, faculty appointment letters, and Aadhaar-linked records against known patterns to detect pixel-level tampering and forgery.
+
+--- DOCUMENTS WE VERIFY ---
+Badge: Supported Documents
+Heading: "Documents We Verify"
+
+Document Types:
+  1. Fire Safety NOC (Municipal / Fire Brigade)
+  2. Land Title / Ownership Deed
+  3. Building Completion Certificate
+  4. Faculty Roster (APH Format — Cadre-wise)
+  5. Joint Fixed Deposit Receipt (FDR)
+  6. Anti-Ragging Affidavit (Principal + Management)
+  7. NAAC / NBA Accreditation Certificate
+  8. Municipal NOC (Building Use)
+  9. Architectural Floor Plans
+  10. Student Enrollment Data
+  11. Affiliation Letter (University)
+  12. Promoter Undertaking Affidavit
+  13. Chartered Accountant Audit Report
+  14. Bank Guarantee Certificate
+  15. AICTE Permanent ID Registration
+  16. Faculty Degree Certificates (Individual)
+  17. Lab Equipment Purchase Invoices
+  18. Internet Bandwidth Certificate
+  19. Medical Facility Certificate
+  20. Sports Ground Certificate
+  21. Library Holdings Certificate
+  22. Hostel / Canteen Compliance Certificate
+  23. Employer PF / ESIC Contribution Records
+  24. Salary Disbursement Records
+  25. Annual Report & Balance Sheet
+
+--- CHALLENGES vs. DOCKEXPERT SOLUTIONS ---
+Heading: "Challenges vs. DOCKEXPERT Solutions"
+
+Challenges (Current Pain Points):
+  - Manual scrutiny of 25+ documents takes 4–6 weeks per application
+  - Officers miss cross-document inconsistencies (different dates on FDR vs. Bank NOC)
+  - Fraudulent or pixel-tampered certificates bypass visual inspection
+  - No standardized evidence trail for appeals or judicial review
+  - Peak EoA season creates unmanageable officer backlogs
+  - Institutions receive vague deficiency notices without clause references
+
+DOCKEXPERT Solutions:
+  - AI OCR extracts and cross-checks all 25+ documents in under 60 seconds
+  - Automatic cross-reconciliation flags date mismatches, value inconsistencies
+  - Hash-based tamper detection identifies pixel-modified or reprinted certificates
+  - Every finding is linked to APH clause with bounding box evidence
+  - Batch processing handles 1,000+ applications simultaneously during EoA season
+  - Deficiency notices auto-generate with exact clause references and extracted values
+
+--- CTA SECTION ---
+Heading: "Ready to Automate Education Sector Verification?"
+Body: "Get started with DOCKEXPERT compliance engine today. See verification results in seconds, not weeks."
+Button: "Book Free Demo ⚡"

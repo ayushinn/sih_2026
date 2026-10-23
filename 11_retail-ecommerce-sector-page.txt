@@ -1,0 +1,82 @@
+PAGE: Document Scrutiny in Retail & E-Commerce
+ROUTE: /document-scrutiny-in-retail-e-commerce
+=============================================================
+
+--- HERO SECTION ---
+Badge: Retail & E-Commerce · GSTN & KYC Automation
+Title (H1): "Document Scrutiny in Retail & E-Commerce"
+Subtitle: "Automated KYC, GSTN verification, and seller onboarding compliance for marketplace platforms."
+CTA Buttons: "Start Verification →" | "View Demo"
+
+Visual Note: "GSTN & KYC Automation Active | Batch 1000+ Apps"
+
+--- STATS STRIP ---
+Stat 1: 1,000+ Seller applications per batch
+Stat 2: 99.5% GST number validation accuracy
+Stat 3: 80% Faster seller onboarding
+Stat 4: Real-time fraud detection
+
+--- USE CASES SECTION ---
+Badge: Use Cases
+Heading: "Key Applications"
+
+Use Case 1:
+  Title: Marketplace Seller KYC Onboarding
+  Description: Automates verification of GST certificates, PAN cards, bank account statements, and trade licenses for new marketplace seller applications in bulk.
+
+Use Case 2:
+  Title: GSTN Filing Compliance
+  Description: Cross-validates GSTN registration certificates with MCA filings, HSN codes, and tax returns to detect discrepancies in seller tax profiles.
+
+Use Case 3:
+  Title: Import/Export License Verification
+  Description: Validates IEC codes, AD codes, and customs clearance certificates for cross-border e-commerce sellers to ensure DGFT compliance.
+
+Use Case 4:
+  Title: Anti-Fraud Seller Screening
+  Description: Detects pixel-tampered GST certificates, fake trade licenses, and duplicate entity registrations across large seller onboarding batches.
+
+--- DOCUMENTS WE VERIFY ---
+Document Types:
+  1. GST Registration Certificate (GSTIN)
+  2. PAN Card
+  3. Aadhaar Card (Masked / Verified)
+  4. Bank Account Statement (6 months)
+  5. Cancelled Cheque
+  6. Trade License / Shops & Establishment
+  7. Import Export Code (IEC) Certificate
+  8. FSSAI License (Food sellers)
+  9. Drug License (Pharma sellers)
+  10. BIS / ISI Certification (Electronics)
+  11. Brand Authorization Letter
+  12. Trademark Registration Certificate
+  13. Product Catalog / Price List
+  14. Warehouse Address Proof
+  15. Directors' KYC (DIN + PAN)
+  16. Certificate of Incorporation (COI)
+  17. MSME Registration Certificate
+  18. Tax Deduction Account Number (TAN)
+  19. Digital Signature Certificate (DSC)
+  20. AD Code for Export Remittance
+
+--- CHALLENGES vs. DOCKEXPERT SOLUTIONS ---
+Heading: "Challenges vs. DOCKEXPERT Solutions"
+
+Challenges:
+  - Onboarding teams manually review 500–2,000 seller applications daily
+  - Fake GST certificates and duplicate PAN registrations bypass visual checks
+  - Inconsistent document formats across states and entity types slow processing
+  - No automated cross-check between GST filings and bank statement turnovers
+  - FSSAI / drug license expiry tracking is entirely manual
+
+DOCKEXPERT Solutions:
+  - Batch API processes 1,000+ seller applications simultaneously in under 5 minutes
+  - AI detects pixel-tampering, font inconsistencies, and hash mismatches in certificates
+  - Adaptive OCR handles regional language variations and inconsistent formats
+  - Cross-validation between GSTN portal data and uploaded certificate fields
+  - Automated license expiry monitoring with pre-expiry alert triggers
+
+--- CTA SECTION ---
+Heading: "Ready to Automate Retail & E-Commerce Verification?"
+Body: "Get started with DOCKEXPERT compliance engine today. See verification results in seconds, not weeks."
+Button: "Book Free Demo ⚡"

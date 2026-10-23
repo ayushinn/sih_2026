@@ -1,0 +1,185 @@
+PAGE: Landing Page
+ROUTE: /
+FILE: src/features/landing/LandingPage.tsx
+DATA SOURCE: src/content/landing.ts
+=============================================================
+
+--- NAVBAR ---
+Brand: DOCKEXPERT
+Brand subtitle: DOCUMENT INTELLIGENCE
+
+Nav Links:
+  - INTEGRATIONS
+  - WORKFLOW
+  - CAPABILITIES
+  - #SECTORS (dropdown)
+  - ROLES
+  - SAFEGUARDS
+
+CTA Button: SIGN IN
+
+--- HERO SECTION ---
+Rotating headline (cycles through):
+  Line 1: "Documents, checked."
+  Line 2: "Evidence, not guesswork."
+  Line 3: "AI advises. Officials decide."
+
+Subtitle:
+  "A trusted decision-support platform for institutional document validation.
+   Helping institutions fix gaps before submission, and officers scrutinize with evidence."
+
+--- INTEGRATIONS MARQUEE / ECOSYSTEM STRIP ---
+Label: "INTEGRATED WITH YOUR EXISTING STACK"
+
+Integration Cards (scrolling):
+  1. Make.com (Integromat) — Instant Scenario Trigger
+  2. DigiLocker / NAD Vault — Official API v2
+  3. Zapier Cloud Trigger — Instant Event Trigger
+  4. Amazon S3 & Cloud Vaults — KMS Encrypted
+  5. Aadhaar e-Sign & DSC — PKI / e-Sign Valid
+  6. REST & GraphQL Webhooks — Sub-50ms Latency
+  7. Slack & Teams Dispatch — Real-time Webhook
+  8. n8n Workflow Automation — Native Node Ready
+
+--- STATEMENT SECTION ---
+Background: Blue/indigo panel
+
+Text Part 1 (bold): "We help institutions fix the gaps before they submit,"
+Text Part 2 (muted): "and help officers see the evidence first."
+
+--- WORKFLOW SECTION ---
+Label: WORKFLOW SIMULATION
+Heading: "Regulatory Scrutiny Lifecycle"
+Sub: "Step-by-step pre-check validation and officer scrutiny workflow"
+
+Steps:
+  Step 1: "Institution Uploads Document Package"
+    "Applicant uploads digital certificates for fire safety, land, faculty roster, and society registration in PDF, JPG, or PNG format."
+
+  Step 2: "Async Validation Job Enqueued (HTTP 202)"
+    "Backend returns a tracked job identifier; client polls with backoff until background OCR and verification concludes."
+
+  Step 3: "OCR & Layout Analysis Extracts Metadata"
+    "Spatial text extraction identifies validity dates, sanctioned intake numbers, land survey plots, and building areas."
+
+  Step 4: "Rule Engine Evaluates Compliance Norms & Expiry"
+    "Cross-references statutory regulatory guidelines and approval norms. Flags high-severity expiry and ratio deviations."
+
+  Step 5: "Evidence-Linked Advisory Findings Generated"
+    "Surfaces findings with model confidence, exact page and coordinate bounding references, and regulatory clause citations."
+
+  Step 6: "Authorised Officer Reviews & Records Decision"
+    "Officer reviews side-by-side evidence, enters mandatory statutory justification notes, and certifies regulatory outcome."
+
+Scrolling Background Words (marquee):
+  MISSING · EXPIRED · INCONSISTENT · ALTERED · DUPLICATE
+
+--- CAPABILITIES SECTION ---
+Label: SYSTEM CAPABILITIES
+Heading: "Engineering & Validation Architecture"
+
+Capability Menu + Detail (tabbed):
+
+  Tab: VALIDATION
+    Title: "Pre-Submission Checklist Validation"
+    Desc: "Institutions receive instant feedback against versioned regulatory approval rules before final submission."
+    Detail: "Rules check land requirements, statutory affidavits, building clearances, and faculty cadre ratios."
+
+  Tab: MISSING AND EXPIRED
+    Title: "Automated Expiry & Incompletion Detection"
+    Desc: "Flags fire safety clearances, society renewals, and accreditation certificates that expire before or during the academic cycle."
+    Detail: "Never converts missing data into a pass. Highlights exact paragraph references and expiry dates."
+
+  Tab: ANOMALY INDICATORS
+    Title: "Preliminary Anomaly & Inconsistency Flags"
+    Desc: "Surfaces font mismatches, altered resolution artifacts, and cross-document figure discrepancies for human inspection."
+    Detail: "Flagged strictly as preliminary indicators requiring human verification, never as conclusive findings."
+
+  Tab: ISSUER VERIFICATION
+    Title: "Cross-Authority Registry Verification"
+    Desc: "Queries issuing authorities via digital APIs and registries, displaying verified, mismatch, or source unavailable states."
+    Detail: "Six exact statuses supported: verified, failed, inconclusive, pending, manual_required, exempt."
+
+  Tab: INFRASTRUCTURE EVIDENCE
+    Title: "CAD & Floor Plan Evidence Mapping"
+    Desc: "Extracts instructional area, administrative space, and safety circulation from submitted architectural floor plans."
+    Detail: "Bounding boxes are drawn only when provided by verified geometric coordinates from the pipeline."
+
+  Tab: OFFICER DASHBOARD
+    Title: "Authorised Scrutiny & Decision Support"
+    Desc: "Empowers scrutiny officers with evidence side-by-side with findings, requiring mandatory notes for every decision."
+    Detail: "Regulatory decisions remain strictly in the hands of authorised officials."
+
+--- SECTORS SECTION ---
+Label: VERIFICATION COVERAGE
+Heading: "Built for every sector."
+
+Sample Document Tiles (status display):
+  - Affidavit of Land Use → Verified
+  - Fire Safety NOC → Expired
+  - Approved Building Floor Plan → Mismatch detected
+  - Faculty Cadre Matrix → Flagged
+  - Accreditation Certificate → Verified
+  - Pollution Control Board Clearance → Exempt
+  - Society Registration Deed → Could not check source
+
+--- ROLES SECTION ---
+Label: STAKEHOLDER ARCHITECTURE
+Heading: "Separation of Responsibilities"
+Desc: "Role-guarded interfaces ensure applicants, scrutiny officers, and verifiers execute distinct statutory duties."
+
+Role Cards:
+  1. APPLICANT SIDE — Applicant Institution
+     "Upload institution documents, run pre-check validation, rectify flagged issues, and track application status."
+
+  2. SCRUTINY SIDE — Scrutiny Officer
+     "Review scrutiny queue, examine bounding-box evidence, accept or dismiss findings, and record statutory decisions."
+
+  3. VERIFICATION SIDE — Verification & Inspection Team
+     "Verify certificates against external portals and conduct manual verifier confirmation workflows."
+
+  4. SYSTEM SIDE — Administrator
+     "Maintain versioned handbook checklists, configure rules, and manage user roles without decision power."
+
+  5. REGULATORY SIDE — Auditor
+     "Inspect the tamper-evident, append-only immutable audit trail and compliance verification records."
+
+--- WORKSPACE MODULES SECTION ---
+Module Cards (4 items):
+  1. Alerts
+     "Real-time notifications on rectification deadlines and pre-check status"
+
+  2. Reports
+     "Advisory summaries and downloadable binary scrutiny PDF records"
+
+  3. Audit Trail
+     "Cryptographically hashed append-only stream of all regulatory actions"
+
+  4. Checklists
+     "Versioned compliance handbook rule definitions and severities"
+
+--- SAFEGUARDS SECTION ---
+Label: GOVERNANCE CERTIFICATION
+Heading: "Safeguards, in a few words."
+
+Safeguard Cards:
+  SG-EDU: Education Sector Verification
+    "Academic degrees, university affiliation charters, faculty cadre lists, and mark-sheets verified against official portals."
+
+  SG-INFRA: Campus Infrastructure & Land Scrutiny
+    "Land titles, built-up area FSI, municipal building plans, and Fire NOC clearances cross-matched against public records."
+
+  SG-LEGAL: Legal & Statutory Compliance Validation
+    "Trust deeds, Society Act registrations, notarial affidavits, and statutory bylaws validated with registry sources."
+
+  SG-REAL: Real Estate & Title Verification
+    "Sale deeds, 30-year encumbrance certificates, RERA approvals, and land revenue mutation extracts scrutinized."
+
+  SG-AUDIT: Traceable Audit Trail
+    "Every document upload, pre-check execution and officer decision is logged in an append-only hash sequence. Nothing is overwritten."
+
+  SG-AI: AI is Advisory Only
+    "AI flags discrepancies and links evidence. It never approves or rejects. Authorised officials make every decision."
+
+--- FOOTER ---
+Copyright: © DOCKEXPERT

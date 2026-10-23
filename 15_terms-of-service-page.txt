@@ -1,0 +1,55 @@
+PAGE: Terms of Regulatory Service
+ROUTE: /terms-of-service
+=============================================================
+
+--- PAGE HEADER ---
+Badge: Regulatory Service Terms
+Title (H1): "Terms of Regulatory Service"
+Subtitle: "Standard operating terms and non-repudiation framework governing institutional applicants, scrutiny officers, and API integrations under DOCKEXPERT."
+
+--- TERMS SECTIONS ---
+
+Section 1: Human-in-the-Loop Binding Decisions
+  "DOCKEXPERT provides automated AI OCR extraction, cross-document reconciliation, and deficiency flagging as decision-support intelligence. The platform does NOT independently grant statutory accreditation or issue formal rejections. Formal regulatory determinations remain the legal responsibility of designated AICTE Scrutiny Officers."
+
+Section 2: Institutional Applicant Responsibilities
+  "Institutions using the Applicant Pre-Check Workspace warrant that all uploaded documents (Fire NOCs, Land Titles, Faculty Rosters, FDRs) represent authentic, un-altered official certificates."
+  
+  Obligations:
+    - Intentional pixel tampering or submission of forged NOCs will be flagged by automated hashing and reported directly to the competent regional council.
+    - Institutions must rectify flagged deficiencies prior to the formal AICTE submission deadline.
+
+Section 3: Service Level Agreement (SLA) & Uptime
+  "During peak Extension of Approval (EoA) filing windows, DOCKEXPERT maintains a 99.9% uptime commitment with maximum 60-second batch processing turnarounds for multi-document bundles up to 25 MB."
+
+  Uptime Commitments:
+    - Cloud SaaS: 99.9% monthly uptime
+    - Enterprise On-Premise: 99.99% (with dedicated support)
+    - Processing SLA: <60 seconds per multi-document bundle (up to 25 MB)
+    - API Response Time: <2 seconds for synchronous single-document calls
+    - Batch API: Asynchronous with webhook notification; ETA <5 minutes for 100+ docs
+
+Section 4: Non-Repudiation & Cryptographic Evidence
+  "Decisions recorded by Scrutiny Officers, along with timestamped justifications and evidence bounding boxes, constitute tamper-evident administrative records for parliamentary and judicial review."
+
+Section 5: Prohibited Uses
+  Prohibited Actions:
+    - Submitting forged, altered, or fraudulent documents
+    - Attempting to manipulate AI extraction outputs
+    - Unauthorized access to other institutions' application data
+    - Scraping or bulk-exporting audit logs without authorization
+    - Using DOCKEXPERT outputs as the sole basis for grant or rejection without officer review
+
+Section 6: Limitation of Liability
+  "DOCKEXPERT's AI findings are advisory in nature. The platform is not liable for regulatory outcomes arising from officer decisions or institutional submissions. Maximum liability is limited to the subscription fees paid in the preceding 3 months."
+
+Section 7: Governing Law & Dispute Resolution
+  Governing Law: Republic of India
+  Jurisdiction: Courts of New Delhi
+  Arbitration: As per Arbitration & Conciliation Act 1996
+  Regulatory Authority: MeitY, AICTE, and relevant state authorities
+
+--- EFFECTIVE DATE ---
+Effective Date: April 2026
+Last Updated: October 2026
+Version: 2.1

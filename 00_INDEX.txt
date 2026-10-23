@@ -1,0 +1,93 @@
+DOCKEXPERT — PAGE CONTENT INDEX (REVISED v2)
+=============================================================
+Source: C:\Users\ianub\Desktop\SIH\FRONTEND (actual running app)
+        http://localhost:3000
+Output: C:\Users\ianub\Desktop\SIH\FRONTEND\page-content\
+Purpose: Accurate content extracted from the REAL frontend pages
+         (NOT the clone-template). Pure text — no design/CSS.
+=============================================================
+
+APPLICATION TYPE: SaaS Platform
+Product Name: DOCKEXPERT
+Tagline: "Document Validation, Authentication & Regulatory Compliance"
+Subtitle: "A trusted decision-support platform for institutional document validation."
+
+KEY PRODUCT TRUTH:
+  - AI is advisory ONLY — never approves or rejects
+  - All decisions are made by authorised human officers
+  - The system surfaces evidence, findings, and flags
+  - Officers record mandatory justification notes
+
+=============================================================
+ACTUAL ROUTES IN THIS FRONTEND
+=============================================================
+
+PUBLIC ROUTES:
+  /              → Landing Page
+  /login         → Login Page
+
+PROTECTED ROUTES (require authentication):
+  /app           → Role-Based Dashboard (home after login)
+  /applications  → Applications List Page
+  /applications/new        → Create New Application
+  /applications/:id        → Application Detail Page
+  /applications/:id/upload → Document Upload (same page)
+  /applications/:id/rectify→ Rectify Findings (same page)
+  /applications/:id/review → Evidence Review Page (Officer)
+  /officer/queue           → Officer Scrutiny Queue
+  /verifications           → Verifier Page
+  /alerts                  → Alerts Page
+  /reports/:id             → Report Page
+  /admin/users             → Admin: User Management
+  /admin/checklists        → Admin: Checklist/Ruleset Management
+  /audit                   → Audit Trail Page
+
+ERROR PAGES:
+  /401  /403  /500  /* (404)
+
+=============================================================
+FILE MAP — All Pages
+=============================================================
+
+01_landing-page.txt              → /  (Landing Page)
+02_login-page.txt                → /login
+03_role-dashboard.txt            → /app (Role Dashboard)
+04_applications-list.txt         → /applications
+05_application-create.txt        → /applications/new
+06_application-detail.txt        → /applications/:id
+07_evidence-review.txt           → /applications/:id/review
+08_officer-queue.txt             → /officer/queue
+09_verifier-page.txt             → /verifications
+10_alerts-page.txt               → /alerts
+11_report-page.txt               → /reports/:id
+12_admin-users.txt               → /admin/users
+13_admin-checklists.txt          → /admin/checklists
+14_audit-trail.txt               → /audit
+15_landing-content-data.txt      → Full landing.ts data reference
+
+=============================================================
+ROLES IN THE SYSTEM
+=============================================================
+
+1. Applicant Institution
+   - Uploads documents, runs pre-check, rectifies flagged issues
+   - Tracks application status through scrutiny pipeline
+
+2. Scrutiny Officer
+   - Reviews scrutiny queue
+   - Examines bounding-box evidence
+   - Accepts or dismisses findings
+   - Records statutory decisions with mandatory justification notes
+
+3. Verification & Inspection Team
+   - Verifies certificates against external portals
+   - Conducts manual verifier confirmation workflows
+
+4. Administrator
+   - Maintains versioned handbook checklists
+   - Configures rules and manages user roles
+   - Has NO decision-making power
+
+5. Auditor
+   - Inspects tamper-evident, append-only immutable audit trail
+   - Reviews compliance verification records

@@ -1,0 +1,80 @@
+PAGE: Legal & Compliance Document Scrutiny
+ROUTE: /legal-and-compliance-document-scrutiny
+=============================================================
+
+--- HERO SECTION ---
+Badge: Legal Sector · Compliance & Governance
+Title (H1): "Legal & Compliance Document Scrutiny"
+Subtitle: "AI-powered verification for contracts, court affidavits, regulatory filings, and statutory compliance documents."
+CTA Buttons: "Start Verification →" | "View Demo"
+
+--- STATS STRIP ---
+Stat 1: 50+ Legal document types supported
+Stat 2: 99.1% Extraction accuracy on structured filings
+Stat 3: 70% Faster compliance review cycles
+Stat 4: Zero unauthorized data access incidents
+
+--- USE CASES SECTION ---
+Badge: Use Cases
+Heading: "Key Applications"
+
+Use Case 1:
+  Title: Regulatory Filing Verification
+  Description: Validates statutory filings with MCA, SEBI, RBI, and other regulators — ensuring all mandatory schedules, audit signatures, and DIN/CIN numbers are correct.
+
+Use Case 2:
+  Title: Contract & Agreement Scrutiny
+  Description: Cross-checks contract parties, dates, terms, and signature blocks across multi-party agreements. Flags missing clauses or expired terms.
+
+Use Case 3:
+  Title: Court Affidavit & Notarized Document Verification
+  Description: Verifies notary seals, stamp values, deponent identity, and consistency across affidavit sets for legal proceedings.
+
+Use Case 4:
+  Title: Corporate Governance Document Audit
+  Description: Ensures board resolutions, shareholder agreements, and audit committee certifications comply with Companies Act 2013 and SEBI LODR requirements.
+
+--- DOCUMENTS WE VERIFY ---
+Document Types:
+  1. MCA Annual Returns (Form MGT-7)
+  2. Statutory Audit Reports
+  3. Board Resolution Certificates
+  4. Director Identification Number (DIN) Filings
+  5. Court Affidavits (Notarized)
+  6. Legal Agreements & MOUs
+  7. GST Compliance Certificates
+  8. Income Tax Returns (ITR-6)
+  9. FEMA / RBI Regulatory Filings
+  10. SEBI Compliance Disclosures
+  11. Stamp Duty Certificates
+  12. Power of Attorney Documents
+  13. Non-Disclosure Agreements (NDA)
+  14. Partnership Deed / LLP Agreements
+  15. Liquidation / Winding Up Notices
+  16. Arbitration Award Documents
+  17. NCLT / NCLAT Filings
+  18. Labour Law Compliance Certificates
+  19. Environmental Clearance Certificates
+  20. Pollution Control Board NOCs
+
+--- CHALLENGES vs. DOCKEXPERT SOLUTIONS ---
+Heading: "Challenges vs. DOCKEXPERT Solutions"
+
+Challenges:
+  - Reviewing multi-party contracts manually is time-intensive and error-prone
+  - Missing signature blocks or expired notary stamps cause filing rejections
+  - Corporate filings often have version mismatches across document sets
+  - No automated cross-reference between related regulatory filings
+  - Counsel teams spend hours on document discovery for litigation support
+
+DOCKEXPERT Solutions:
+  - AI extracts all party names, dates, signatories, and clause references automatically
+  - Automated expiry detection and missing signature flagging before filing
+  - Cross-document reconciliation across related filings and agreements
+  - Regulatory clause mapping against applicable statutes and SEBI/MCA rules
+  - Instant document discovery across large filing archives via semantic search
+
+--- CTA SECTION ---
+Heading: "Ready to Automate Legal Compliance Verification?"
+Body: "Get started with DOCKEXPERT compliance engine today. See verification results in seconds, not weeks."
+Button: "Book Free Demo ⚡"

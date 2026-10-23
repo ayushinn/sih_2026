@@ -1,0 +1,83 @@
+PAGE: Contact & Demo Request
+ROUTE: /contact
+=============================================================
+
+--- PAGE HEADER ---
+Badge: Get In Touch
+Title (H1): "Book a Demo & Regulatory Consultation"
+Subtitle: "Schedule a demonstration of DOCKEXPERT tailored to your institution or regulatory authority."
+
+--- DEMO REQUEST FORM (Left Column) ---
+Form Title: "Request Demonstration"
+Form Intro: "Fill out your details to receive an interactive sandbox walkthrough."
+
+Field 1:
+  Label: "Your Name *"
+  Type: text
+  Placeholder: Dr. Rajesh Kumar
+
+Field 2:
+  Label: "Official Email *"
+  Type: email
+  Placeholder: principal@college.edu.in
+
+Field 3:
+  Label: "Institution / Agency *"
+  Type: text
+  Placeholder: VIT Pune / AICTE RO
+
+Field 4:
+  Label: "Your Stakeholder Role"
+  Type: select / dropdown
+  Options:
+    - College / University Admin
+    - Scrutiny / Regional Officer
+    - Regulatory Authority / Ministry
+    - Corporate Enterprise
+
+Field 5:
+  Label: "Area of Interest"
+  Type: select / dropdown
+  Options:
+    - Education Sector (AICTE/UGC)
+    - Legal & Compliance
+    - Real Estate & Property
+    - Retail & E-Commerce
+
+Field 6:
+  Label: "Requirement Note"
+  Type: textarea
+  Placeholder: "Tell us about your document verification volume or specific APH compliance requirements..."
+
+Submit Button: "Schedule Demonstration" (send icon)
+
+--- SUCCESS STATE (after form submission) ---
+Title: "Demo Request Received!"
+Message: "Thank you, [Name]. Our technical compliance advisor will contact you within 2 business hours to schedule your session."
+Reset Button: "Submit Another Inquiry"
+
+--- CONTACT INFORMATION (Right Column) ---
+
+Section Heading: "Direct Support"
+Description: "Our compliance engineering team provides technical support for institutional administrators, API integrators, and scrutiny committees."
+
+Contact Item 1 — Email:
+  Label: Email Inquiry
+  Value: compliance@dockexpert.gov.in
+
+Contact Item 2 — Phone:
+  Label: National Helpline
+  Value: +91 (011) 2958-1000 (Toll Free)
+
+Contact Item 3 — Address:
+  Label: Technology Center
+  Value: AICTE HQ Campus, Nelson Mandela Marg, Vasant Kunj, New Delhi
+
+--- TURNAROUND COMMITMENT BOX ---
+Title: "Turnaround Commitment"
+Description: "Institutional approval queries during peak EoA submission windows are addressed within a 4-hour SLA window by senior scrutiny advisors."
+
+--- OFFICE HOURS / AVAILABILITY ---
+Heading: "Support Hours"
+Hours: Monday – Friday: 9:00 AM – 6:00 PM IST
+Peak Window: "Extended support available during AICTE EoA submission deadlines (Oct–Dec)"

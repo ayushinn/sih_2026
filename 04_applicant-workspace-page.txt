@@ -1,0 +1,103 @@
+PAGE: Applicant Workspace (Institution Pre-Check Dashboard)
+ROUTE: /applicant-workspace
+=============================================================
+
+--- PAGE HEADER ---
+Badge: Applicant Workspace
+Title (H1): "AICTE Document Pre-Check Workspace"
+Subtitle: "Upload, verify, and rectify your institutional documents before formal AICTE submission."
+
+Institution Info Bar:
+  - Institution: VIT Engineering College, Pune
+  - Application ID: APP-2026-PUNE-001
+  - Session: Active | AICTE Portal Sync: Ready
+
+--- PROGRESS BAR ---
+Label: "Submission Readiness"
+Progress Display: e.g. "67% Complete"
+Status Counters:
+  - ✓ Verified (count)
+  - ⚠ Flagged (count)
+  - ⏱ Expired (count)
+  - ✗ Missing (count)
+
+CTA Button: "Submit to AICTE Scrutiny Queue →" (enabled once all docs are rectified)
+Note below button: "Once submitted, your bundle will enter the Officer Scrutiny Queue. Ensure all flagged documents are rectified."
+
+--- DOCUMENT LIST ---
+(Each document shows: Status badge | Document Name | File name & size | AI Confidence %)
+
+Document 1:
+  Name: Fire Safety NOC
+  File: fire_noc_pune_2024.pdf | 2.4 MB
+  Status: VERIFIED
+  AI Confidence: 94%
+  Expanded Detail — AI Extracted Data:
+    "Certificate No: FS/2024/889 | Issued: 14-Mar-2024 | Valid Until: 13-Mar-2025 | Fire Exits: 6 | Extinguishers: 24"
+  Actions: View Document | Download
+
+Document 2:
+  Name: Land Title / Ownership Deed
+  Status: FLAGGED
+  AI Confidence: 87%
+  Expanded Detail — AI Extracted Data:
+    "Plot Area: 2.8 acres (urban) — BELOW MINIMUM 5.0 acres rural / 2.5 acres urban threshold. Title chain: 22 years — BELOW 30-year minimum."
+  Actions: View Document | Re-Upload | Download
+
+Document 3:
+  Name: Building Completion Certificate
+  Status: VERIFIED
+  AI Confidence: 91%
+  Expanded Detail — AI Extracted Data:
+    "Issued by: PMC Urban Dev. | Date: 09-Feb-2024 | Carpet Area (Teaching): 6,200 sq.ft | Labs: 4 | Classrooms: 14"
+  Actions: View Document | Download
+
+Document 4:
+  Name: Faculty Roster (APH Format)
+  Status: FLAGGED
+  AI Confidence: 89%
+  Expanded Detail — AI Extracted Data:
+    "Total Faculty: 38 | Professors: 3 | Assoc. Prof: 7 | Asst. Prof: 28 — Cadre ratio 1:2:9.3 (REQUIRED 1:2:6). STR: 1:24 (REQUIRED 1:20)."
+  Actions: View Document | Re-Upload | Download
+
+Document 5:
+  Name: Joint FDR Certificate
+  Status: EXPIRED
+  AI Confidence: 96%
+  Expanded Detail — AI Extracted Data:
+    "FDR Amount: ₹50,00,000 | Bank: SBI Pune Main | Maturity: 31-Mar-2024 (EXPIRED) | Joint Lien: AICTE-RO-WEST confirmed"
+  Actions: View Document | Re-Upload | Download
+
+Document 6:
+  Name: Anti-Ragging Affidavit
+  Status: MISSING
+  Expanded Detail — AI Extracted Data:
+    "No file uploaded"
+  Actions: Upload
+
+Document 7:
+  Name: NAAC / NBA Accreditation Certificate
+  File: naac_grade_a_2022.pdf | 1.1 MB
+  Status: VERIFIED
+  AI Confidence: 99%
+  Actions: View Document | Download
+
+Document 8:
+  Name: Municipal NOC (Building)
+  File: municipal_noc_2024.pdf | 890 KB
+  Status: VERIFIED
+  AI Confidence: 93%
+  Actions: View Document | Download
+
+--- UPLOAD / RECTIFY MODAL ---
+Title: "Upload Document"
+Drop Zone Text: "Drag & drop or click to upload"
+File Format Note: "PDF, JPG, PNG, ZIP — Max 25 MB"
+Buttons: Cancel | Upload & Verify
+
+--- STATUS LEGEND ---
+VERIFIED: AI has successfully extracted and validated all required data fields
+FLAGGED: One or more extracted values do not meet APH compliance thresholds
+EXPIRED: Document validity date has passed — renewal required
+MISSING: No document uploaded — mandatory for AICTE submission
+RECTIFIED: Document re-uploaded and re-validated by AI
