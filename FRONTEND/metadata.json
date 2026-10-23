@@ -1,6 +1,0 @@
-{
-  "name": "THERMORA - AICTE Document Validation Platform",
-  "description": "Decision-support platform for AICTE application scrutiny with evidence-backed findings and official review.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
