@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+
+@theme {
+  --color-ink: #0B0B0C;
+  --color-paper: #FBFBF6;
+  --color-brand: #2B6CC4;
+  --color-brand-soft: #6398E0;
+  --color-brand-deep: #0E2F66;
+  --color-ok: #2EA653;
+  --color-warn: #F28B2B;
+  --color-info: #7B57C2;
+  --color-danger: #E4475A;
+  --color-muted: #5C6779;
+  
+  --color-line-dark: rgba(255, 255, 255, 0.12);
+  --color-line-light: rgba(14, 47, 102, 0.12);
+
+  --color-tint-brand: #EAF2FC;
+  --color-tint-ok: #E9F7EE;
+  --color-tint-warn: #FEF2E6;
+  --color-tint-info: #F0EBFA;
+  --color-tint-danger: #FDEDEF;
+
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+@keyframes marqueeSlow {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee-slow {
+  display: flex;
+  width: max-content;
+  animation: marqueeSlow 40s linear infinite;
+}
+
+.animate-marquee-slow:hover {
+  animation-play-state: paused;
+}
+
+.mask-fade-edges {
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}

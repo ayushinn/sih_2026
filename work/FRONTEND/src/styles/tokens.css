@@ -1,0 +1,45 @@
+:root {
+  /* DOCKEXPERT Design Tokens (Institutional Document Verification Specification) */
+  --ink: #0B0B0C;
+  --paper: #FBFBF6;
+  --brand: #2B6CC4;
+  --brand-soft: #6398E0;
+  --brand-deep: #0E2F66;
+  --ok: #2EA653;
+  --warn: #F28B2B;
+  --info: #7B57C2;
+  --danger: #E4475A;
+  --muted: #5C6779;
+  
+  /* Hairlines */
+  --line-light: rgba(14, 47, 102, 0.12);
+  --line-dark: rgba(255, 255, 255, 0.12);
+
+  /* Status and badge background tints */
+  --tint-brand: #EAF2FC;
+  --tint-ok: #E9F7EE;
+  --tint-warn: #FEF2E6;
+  --tint-info: #F0EBFA;
+  --tint-danger: #FDEDEF;
+}
+
+/* Custom utility styles */
+.hairline-b {
+  border-bottom: 1px solid var(--line-light);
+}
+
+.hairline-t {
+  border-top: 1px solid var(--line-light);
+}
+
+.hairline-r {
+  border-right: 1px solid var(--line-light);
+}
+
+.hairline-dark-b {
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.pill {
+  border-radius: 9999px;
+}
